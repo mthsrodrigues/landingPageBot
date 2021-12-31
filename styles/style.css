@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.header-logo {
+  height: 72px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.header-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.content {
+  margin-bottom: 48px;
+  border-top: 0.3px solid #fff2e7;
+}
+
+.principal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.principal-written-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.principal-written-content-title {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #fff2e7;
+  font-size: 64px;
+}
+
+.principal-written-content-subtitle {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  color: #ecd6c4;
+  font-size: 24px;
+}
+.principal-written-content-button {
+  border: none;
+  background: #ecd6c4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 180px;
+  height: 67px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #2f2325;
+}
+
+.principal-written-content-button:hover {
+  transition: 1s;
+  cursor: pointer;
+  background: rgba(255, 253, 241, 0.699);
+}
+
+.principal-content-image {
+  height: 430px;
+}
+
+.secondary-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.secondary-content-title {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #fff2e7;
+  font-size: 30px;
+  padding-top: 48px;
+  border-top: 0.3px solid #fff2e7;
+}
+
+.secondary-content-paragraph {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  color: #ecd6c4;
+}
+
+.footer {
+  border-top: 0.3px solid #fff2e7;
+  padding: 32px;
+}
+
+.footer-image {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
